@@ -250,11 +250,11 @@ export class BasicDetails extends LocalizeMixin(LitElement) {
       });
   }
 
-  /*   _toEmiDetails() {
+   _toEmiDetails() {
     // console.log(this.emiCalc);
     Router.go('/emidetails');
     // ;
-  } */
+  } 
 
   _toDashboard() {
     Router.go('/');
